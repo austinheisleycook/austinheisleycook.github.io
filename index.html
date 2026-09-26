@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Austin Heisley-Cook's portfolio: .NET, Microsoft technologies, software projects, and IT experience.">
+        <title>Austin Heisley-Cook | .NET Developer</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background-color: #f4f6f2;
+                color: #202b28;
+                line-height: 1.6;
+            }
+            header {
+                background-color: #202b28;
+                color: #fff;
+                padding: 24px max(24px, calc((100% - 920px) / 2));
+                border-bottom: 5px solid #e0a43b;
+            }
+            .profile {
+                align-items: center;
+                display: flex;
+                gap: 20px;
+            }
+            .profile img {
+                border: 3px solid #e0a43b;
+                border-radius: 50%;
+                flex: 0 0 112px;
+                height: 112px;
+                object-fit: cover;
+                width: 112px;
+            }
+            .profile-copy {
+                min-width: 0;
+            }
+            header p {
+                color: #d2ded8;
+                margin: 4px 0 0;
+            }
+            h1, h2 {
+                font-family: Georgia, "Times New Roman", serif;
+            }
+            h1 {
+                font-size: 2rem;
+                margin: 0;
+            }
+            nav {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-top: 20px;
+            }
+            nav a {
+                color: #fff;
+                text-underline-offset: 4px;
+            }
+            nav a:hover, nav a:focus-visible {
+                color: #f4c36e;
+            }
+            main {
+                max-width: 920px;
+                margin: 0 auto;
+                padding: 40px 24px 56px;
+            }
+            section + section {
+                border-top: 1px solid #d7dfda;
+                margin-top: 36px;
+                padding-top: 30px;
+            }
+            h2 {
+                font-size: 1.55rem;
+                margin-bottom: 16px;
+            }
+            h3 {
+                font-size: 1.05rem;
+                margin-bottom: 4px;
+            }
+            .intro {
+                font-size: 1.12rem;
+                max-width: 720px;
+            }
+            main a {
+                color: #146c5a;
+            }
+            .role {
+                border-left: 3px solid #146c5a;
+                margin: 22px 0;
+                padding-left: 18px;
+            }
+            .meta {
+                color: #53615b;
+                font-size: 0.94rem;
+                margin-bottom: 8px;
+            }
+            li + li {
+                margin-top: 6px;
+            }
+            footer {
+                background: #202b28;
+                color: #d2ded8;
+                padding: 18px 24px;
+                text-align: center;
+            }
+            @media (max-width: 560px) {
+                header, main {
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                .profile {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 14px;
+                }
+                main {
+                    padding-top: 30px;
+                    padding-bottom: 44px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="profile">
+                <img src="austin.jpeg" alt="Portrait of Austin Heisley-Cook" width="112" height="112">
+                <div class="profile-copy">
+                    <h1>Austin Heisley-Cook</h1>
+                    <p>.NET Developer | Microsoft Technology Enthusiast</p>
+                </div>
+            </div>
+            <nav aria-label="Main navigation">
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+            </nav>
+        </header>
+        <main>
+            <section class="intro" aria-labelledby="about-heading">
+                <h2 id="about-heading">About</h2>
+                <p>I'm a .NET developer with a strong interest in Microsoft technologies, including C# and Azure. My background also includes Python and web development, campus IT support, accessibility work, and leading software communities.</p>
+                <p><a href="https://github.com/afheisleycook">View my GitHub profile</a></p>
+            </section>
+
+            <section id="experience" aria-labelledby="experience-heading">
+                <h2 id="experience-heading">Experience</h2>
+                <article class="role">
+                    <h3>Field Operations Intern | EVgo</h3>
+                    <p class="meta">December 2022 - February 2023</p>
+                    <p>Contributed Python programming for AMS and collaborated in team meetings.</p>
+                </article>
+                <article class="role">
+                    <h3>Project Manager and Community Manager | Dragon Programming Language</h3>
+                    <p class="meta">March 2020 - November 2020</p>
+                    <p>Managed an international team, moved project workflows to GitHub, improved documentation, coordinated a website and logo redesign, and contributed a text-to-speech library.</p>
+                </article>
+                <article class="role">
+                    <h3>Student Support Services Technician / Lab Tech Assistant | Taft Community College</h3>
+                    <p class="meta">August 2013 - June 2016</p>
+                    <p>Supported campus technology for a college community of 5,200 students, maintained classroom and lab computers, and converted more than 1,000 textbooks to accessible formats using OCR. Named Best Worker of the Year.</p>
+                </article>
+                <p>Also experienced in office support, retail operations, and moderating large online communities focused on computers, programming, and autism support.</p>
+            </section>
+
+            <section id="skills" aria-labelledby="skills-heading">
+                <h2 id="skills-heading">Skills and Certifications</h2>
+                <p><strong>Technologies:</strong> C#, .NET, Azure, Python, PHP, Laravel, HTML, CSS, JavaScript, Visual Basic, and C++.</p>
+                <p><strong>Certifications listed on my resume:</strong> .NET, PHP, Laravel, and Azure.</p>
+            </section>
+
+            <section id="education" aria-labelledby="education-heading">
+                <h2 id="education-heading">Education</h2>
+                <ul>
+                    <li>Web development studies and Azure Programming Certification, Santa Monica College</li>
+                    <li>.NET Programming Certification, Los Angeles Valley College</li>
+                    <li>Information Technology and Management Certification, Taft Community College</li>
+                    <li>Dean's List, Spring 2019</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Austin Heisley-Cook</p>
+        </footer>
+    </body>

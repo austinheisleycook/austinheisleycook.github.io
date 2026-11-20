@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Bio</title>
+  <style>
+    :root {
+      --background: #f4f7fb;
+      --card: #ffffff;
+      --text: #20242c;
+      --muted: #697386;
+      --accent: #5b6cff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--background);
+      color: var(--text);
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+    }
+
+    .bio {
+      width: min(680px, 100%);
+      padding: 44px;
+      background: var(--card);
+      border: 1px solid #e5e9f2;
+      border-radius: 24px;
+      box-shadow: 0 18px 50px rgba(45, 55, 88, 0.10);
+    }
+
+    .badge {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #eef0ff;
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(36px, 8vw, 56px);
+      line-height: 1;
+    }
+
+    .role {
+      margin: 0 0 24px;
+      color: var(--accent);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    strong { color: var(--text); }
+  </style>
+</head>
+<body>
+  <main class="bio">
+    <span class="badge">Developer Bio</span>
+    <h1>TechnoShy</h1>
+    <p class="role">Python &amp; Linux Developer</p>
+    <p>
+      I build practical software with <strong>Python</strong> and work confidently within
+      <strong>Linux environments</strong>. My development approach combines clean, readable code
+      with hands-on system knowledge, from automation and database-backed applications to terminal
+      tools and desktop programs. I enjoy turning ideas into reliable projects, solving technical
+      problems, and continually improving how software behaves behind the scenes.
+    </p>
+  </main>
+</body>
+</html>
